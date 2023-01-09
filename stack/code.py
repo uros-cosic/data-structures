@@ -21,7 +21,7 @@ class Stack:
         self._data.append(e)
 
     def top(self):
-        """Return (but don't remove) the element at the top of the stack
+        """Return the element at the top of the stack
 
         Raise Empty exception if stack is empty
         """
