@@ -2,7 +2,7 @@ class Empty(Exception):
     """Error while attempting to access the element from an empty container"""
     pass
 
-class Stack:
+class ListStack:
     """LIFO Stack Implementation using Python List"""
     def __init__(self):
         """Create an empty stack"""

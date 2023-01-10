@@ -2,7 +2,7 @@ class Empty(Exception):
     """Error while attempting to get an element from a empty queue"""
     pass
 
-class Queue:
+class ListQueue:
     """FIFO Queue Implementation Using Python List"""
     DEFAULT_CAPACITY = 10
 
